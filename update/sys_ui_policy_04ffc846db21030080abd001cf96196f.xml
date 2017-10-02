@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_162737_hello_wor_needit">u_what_needed=your_choice2^EQ<item endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="your_choice2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>true</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Needit show or hide other field</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-02 22:08:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04ffc846db21030080abd001cf96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit show or hide other field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hello world" source="x_162737_hello_wor">127c0a56db11030080abd001cf961995</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hello world">127c0a56db11030080abd001cf961995</sys_scope>
+        <sys_update_name>sys_ui_policy_04ffc846db21030080abd001cf96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-02 22:08:40</sys_updated_on>
+        <table>x_162737_hello_wor_needit</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
